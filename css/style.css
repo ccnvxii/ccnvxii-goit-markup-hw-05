@@ -1,16 +1,24 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+h1 {
+  font-size: 56px;
+}
+header nav ul li,
+h3 {
+  font-weight: 500;
+}
+h2,
+h3 {
   color: #2e2f42;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
-p{
-    font-size: 16px;
-    font-weight: 400;
-}
-h1{
-    font-size: 56px;
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 a {
   text-decoration: none;
@@ -21,41 +29,56 @@ ul {
   margin: 0;
   padding: 0;
 }
-header nav ul li, h3{
-    font-weight: 500;
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-size: 18px;
+  color: #4d5ae5;
+  text-transform: uppercase;
 }
-button {
-  cursor: pointer;
+header .logo span {
+  color: #2e2f42;
 }
-.hero{
-     background-color: #2E2F42;
-     color: #ffffff;
-     width: 1440px;
-        height: 600px;
+.hero {
+  background-color: #2e2f42;
+  color: #ffffff;
+  width: 1440px;
+  height: 600px;
 }
-.hero button {
+.hero-title {
+  text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.hero-btn {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
   color: #ffffff;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   padding: 16px 32px;
 }
-footer{
-    background-color: #2E2F42;
-    color: #ffffff;
-    width: 1440px;
-    height: 312px;
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
-.logo{
-    font-family: 'Realeway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: #4D5AE5;
-    text-transform: uppercase;
+button {
+  cursor: pointer;
 }
-.team{
-    background-color: #F4F4FD;
+.team {
+  background-color: #f4f4fd;
+}
+.footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+  width: 1440px;
+  height: 312px;
+}
+.footer .logo span {
+  color: #f4f4fd;
 }
