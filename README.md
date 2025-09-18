@@ -1,6 +1,6 @@
 # goit-markup-hw-02
 
-This repository contains the HTML markup for the second homework assignment of the GoIT Markup course. The project focuses on creating a semantic HTML structure based on the provided design mockup, with basic CSS styling.
+This repository contains the HTML markup for the second homework assignment of the GoIT course. The project focuses on creating a semantic HTML structure based on the provided design mockup, with basic CSS styling.
 
 🔗 **Live Page**: [Link to the live page](https://ccnvxii.github.io/goit-markup-hw-02/#) 
 
