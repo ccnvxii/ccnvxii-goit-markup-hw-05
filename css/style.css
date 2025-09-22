@@ -18,14 +18,14 @@ a {
 ul {
   list-style: none;
 }
-.nav-item {
+.nav-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
   font-weight: 500;
 }
-.nav-item:hover,
-.nav-item:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 .contact {
@@ -33,11 +33,11 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contact-item {
+.contact-link {
    color: #434455;
 }
-.contact-item:hover,
-.contact-item:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 .logo {
@@ -49,7 +49,7 @@ ul {
   color: #4d5ae5;
   text-transform: uppercase;
 }
-.logo--header span {
+.logo--header .span-logo {
   color: #2e2f42;
 }
 .hero {
@@ -111,7 +111,7 @@ ul {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
-.logo--footer span {
+.logo--footer .span-logo {
   color: #f4f4fd;
 }
 .footer-description{
