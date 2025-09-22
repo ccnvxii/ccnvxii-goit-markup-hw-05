@@ -64,7 +64,6 @@ ul {
 .hero-button {
   background-color: #4d5ae5;
   border: none;
-  border-radius: 4px;
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
@@ -92,7 +91,7 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #2e2f42;
 }
 .portfolio-category,
 .team-role,
@@ -114,4 +113,8 @@ ul {
 }
 .logo--footer span {
   color: #f4f4fd;
+}
+.footer-description{
+   line-height: 1.5;
+   letter-spacing: 0.02em;
 }
