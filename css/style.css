@@ -11,28 +11,34 @@ h3 {
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
-.nav-item{
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.nav-item:hover, .nav-item:focus {
-  color: #404bbf;
-}
-.contact{
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.contact:hover, .contact:focus {
-  color: #404bbf;
-}
 a {
   text-decoration: none;
   color: black;
 }
 ul {
   list-style: none;
+}
+.nav-item {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-weight: 500;
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: #404bbf;
+}
+.contact {
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.contact-item {
+   color: #434455;
+}
+.contact-item:hover,
+.contact-item:focus {
+  color: #404bbf;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -43,14 +49,12 @@ ul {
   color: #4d5ae5;
   text-transform: uppercase;
 }
-header .logo span {
+.logo--header span {
   color: #2e2f42;
 }
 .hero {
   background-color: #2e2f42;
   color: #ffffff;
-  width: 1440px;
-  height: 600px;
 }
 .hero-title {
   text-align: center;
@@ -72,12 +76,11 @@ header .logo span {
 .hero-button:focus {
   background-color: #404bbf;
 }
-
 .team-title,
 .portfolio-title,
 .features-title {
   line-height: 1.11;
-  font-size: 32px;
+  font-size: 36px;
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
@@ -102,15 +105,13 @@ header .logo span {
 .team {
   background-color: #f4f4fd;
 }
-.team-item{
-    background-color:#FFFFFF ;
+.team-item {
+  background-color: #ffffff;
 }
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
-  width: 1440px;
-  height: 312px;
 }
-.footer .logo span {
+.logo--footer span {
   color: #f4f4fd;
 }
