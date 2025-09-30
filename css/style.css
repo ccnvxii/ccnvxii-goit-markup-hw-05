@@ -33,6 +33,7 @@ img {
 }
 .visually-hidden {
   display: none;
+  overflow: hidden;
 }
 /* HEADER */
 .nav-link {
