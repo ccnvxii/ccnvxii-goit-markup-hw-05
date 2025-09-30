@@ -31,6 +31,9 @@ img {
   max-width: 1158px;
   margin: 0 auto;
 }
+.visually-hidden {
+  display: none;
+}
 /* HEADER */
 .nav-link {
   line-height: 1.5;
@@ -181,7 +184,7 @@ img {
   display: flex;
   flex-direction: row;
   text-align: center;
-  gap: 30px;
+  gap: 24px;
 }
 .team-item {
   border-radius: 0px 0px 4px 4px;
