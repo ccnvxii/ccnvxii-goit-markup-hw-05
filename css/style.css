@@ -48,7 +48,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
+  padding: 0 15px;
 }
 .nav {
   display: flex;
@@ -58,6 +58,7 @@ img {
 .nav-list,
 .contact-list {
   display: flex;
+  padding: 24px 0;
   gap: 40px;
   margin: 0;
 }
@@ -136,6 +137,7 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .features-subtitle,
 .team-name,
@@ -154,11 +156,6 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.features-title,
-.portfolio-title,
-.team-title {
-  margin-bottom: 24px;
 }
 .features,
 .portfolio,
@@ -205,6 +202,7 @@ img {
 .portfolio-item-content {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 /* FOOTER */
 .footer {
@@ -212,10 +210,12 @@ img {
   color: #f4f4fd;
   padding: 100px 0;
 }
-.logo--footer .span-logo {
-  color: #f4f4fd;
+.logo--footer {
   display: inline-block;
   margin-bottom: 16px;
+}
+.logo--footer .span-logo {
+  color: #f4f4fd;
 }
 .footer-description {
   line-height: 1.5;
