@@ -32,7 +32,16 @@ img {
   margin: 0 auto;
 }
 .visually-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 /* HEADER */
 .nav-link {
@@ -61,9 +70,11 @@ img {
 .nav-list,
 .contact-list {
   display: flex;
-  padding: 24px 0;
   gap: 40px;
   margin: 0;
+}
+.nav-item {
+  padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:focus {
