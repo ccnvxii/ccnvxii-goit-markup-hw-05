@@ -45,15 +45,6 @@ img {
   overflow: hidden;
 }
 /* HEADER */
-.nav-link {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  font-weight: 500;
-}
-.nav-bar {
-  display: flex;
-}
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -73,12 +64,19 @@ img {
   gap: 40px;
   margin: 0;
 }
-.nav-item {
+.nav-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-weight: 500;
   padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
+}
+.nav-item {
+  padding: 24px 0;
 }
 .contact {
   font-style: normal;
