@@ -199,6 +199,14 @@ img {
 .team-item {
   width: calc((100% - 3 * 24px) / 4);
 }
+.features-icon {
+  width: 264px;
+  height: 112px;
+  padding: 24px 100px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 .team {
   background-color: #f4f4fd;
 }
@@ -218,7 +226,28 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .team-item-content {
-  padding: 32px 0;
+  padding: 32px 16px;
+}
+.socials-icon {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
+}
+.socials-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 8px;
+}
+.socials-link {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border-radius: 100%;
+  padding: 12px;
+  display: flex;
+  align-items: center;
 }
 .portfolio-list {
   display: flex;
@@ -238,6 +267,34 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+.portfolio-subtitle {
+  /* display: none; */
+  padding: 40px 32px 0 32px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.portfolio-item-img {
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-item-img .overlay {
+  padding: 40px 32px 0 32px;
+  background-color: #4d5ae5;
+  color: #f4f4fd;
+  font-weight: 400;
+  position: absolute;
+  letter-spacing: 0.02em;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms ease-in-out;
+}
+.portfolio-item-img:hover .overlay {
+  transform: translateY(0);
+}
 /* #endregion */
 
 /* #region footer */
@@ -245,6 +302,12 @@ img {
   background-color: #2e2f42;
   color: #f4f4fd;
   padding: 100px 0;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+  gap: 120px;
 }
 .logo--footer {
   display: inline-block;
@@ -257,5 +320,35 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
+}
+.socials-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.socials-icon-footer {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+}
+.socials-footer-title {
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 24px;
+}
+.socials-list-footer {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.socials-link-footer {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border-radius: 100%;
+  padding: 8px;
+  display: flex;
+  align-items: center;
 }
 /* #endregion */
