@@ -370,9 +370,6 @@ img {
   color: #ffffff;
   margin-bottom: 16px;
 }
-.footer-content p {
-  margin-bottom: 16px;
-}
 .socials-footer {
   display: flex;
   flex-direction: column;
@@ -383,11 +380,11 @@ img {
   letter-spacing: 0.02em;
   font-weight: 500;
   line-height: 24px;
+  margin-bottom: 16px;
 }
 .socials-list-footer {
   display: flex;
   justify-content: center;
-  gap: 16px;
 }
 .socials-link-footer {
   width: 40px;
