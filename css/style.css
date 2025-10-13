@@ -370,6 +370,9 @@ img {
   color: #ffffff;
   margin-bottom: 16px;
 }
+.footer-content p {
+  margin-bottom: 16px;
+}
 .socials-footer {
   display: flex;
   flex-direction: column;
