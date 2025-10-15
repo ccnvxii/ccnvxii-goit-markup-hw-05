@@ -385,6 +385,7 @@ img {
 .socials-list-footer {
   display: flex;
   justify-content: center;
+  gap: 16px;
 }
 .socials-link-footer {
   width: 40px;
