@@ -558,7 +558,7 @@ img {
 }
 
 .input-field:focus {
-  border-color: var(--primary-color);
+  border-color: #4d5ae5;
 }
 
 .input-icon {
@@ -572,7 +572,6 @@ img {
 
 .input-icon:focus {
   fill: #4d5ae5;
-  border-color: #4d5ae5;
 }
 
 .input-field:focus {
@@ -631,9 +630,6 @@ img {
 }
 
 .checkbox-custom {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -642,11 +638,17 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .checkbox-input:checked + .checkbox-label .checkbox-custom {
   background-color: #404bbf;
   border: none;
+}
+
+.checkbox-input:checked + .checkbox-label .checkbox-icon {
   fill: #f4f4fd;
 }
 
