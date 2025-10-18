@@ -485,26 +485,24 @@
             </li>
           </ul>
         </div>
-        <div class="footer-form">
-          <p class="footer-form-title">Subscribe</p>
-          <div class="footer-form-wrap">
-            <form class="footer-form-group">
-              <label class="subscribe-label">
-                <input
-                  class="subscribe-input"
-                  type="email"
-                  class="footer-input"
-                  placeholder="E-mail"
-                />
-              </label>
-              <button type="button" class="footer-button primary-btn">
-                Subscribe
-                <svg class="footer-input-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-telegram"></use>
-                </svg>
-              </button>
-            </form>
-          </div>
+        <div class="subscribe-form">
+          <p class="subscribe-title">Subscribe</p>
+          <form class="subscribe-group">
+            <label class="subscribe-label">
+              <input
+                type="email"
+                name="user-email"
+                class="subscribe-input"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="subscribe-btn primary-btn">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -512,7 +510,7 @@
     <!-- #region modal -->
     <div class="modal-overlay">
       <div class="modal">
-        <button type="button" class="close-btn">
+        <button title="send" type="button" class="close-btn">
           <svg class="close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>

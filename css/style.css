@@ -406,36 +406,44 @@ img {
   fill: #f4f4fd;
 }
 
-.footer-form-group {
+.subscribe-title {
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.subscribe-group {
   display: flex;
-  gap: 16px;
+  gap: 24px;
 }
 .subscribe-input {
-  background-color: transparent;
-  border: 1px solid #ffffff;
-  border-radius: 4px;
   width: 264px;
   height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
   font-size: 12px;
+  line-height: 2;
   letter-spacing: 0.04em;
-  font-weight: 400;
-  line-height: 1.5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  padding: 8px 16px;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
 }
 .subscribe-input::placeholder {
   color: #ffffff;
 }
-.footer-input-icon {
+.subscribe-icon {
   fill: #ffffff;
+  margin-left: 16px;
 }
-.footer-button {
+.subscribe-btn {
   padding: 8px 24px;
   display: flex;
   align-items: center;
-  gap: 16px;
+  justify-content: center;
+  min-width: 165px;
+  height: 40px;
 }
 /* #endregion */
+/* #region modal */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -645,3 +653,4 @@ img {
   justify-content: center;
   margin: 0 auto;
 }
+/* #endregion */
