@@ -606,7 +606,7 @@ img {
   margin-bottom: 24px;
 }
 
-.checkbox-input.visually-hidden {
+/* .checkbox-input.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -617,7 +617,7 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 .checkbox-label {
   font-size: 12px;
