@@ -570,14 +570,10 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-icon:focus {
+.input-field:focus + .input-icon {
   fill: #4d5ae5;
 }
 
-.input-field:focus {
-  fill: #4d5ae5;
-  border-color: #4d5ae5;
-}
 .textarea-group {
   margin-bottom: 16px;
 }
@@ -611,9 +607,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
-  align-items: center;
-  gap: 8px;
 }
 
 .checkbox-custom {
@@ -629,8 +622,7 @@ img {
   justify-content: center;
   width: 16px;
   height: 16px;
-  margin-right: 8px;
-  vertical-align: middle;
+  /* margin-right: 8px; */
 }
 
 .checkbox-input:checked + .checkbox-label .checkbox-custom {
